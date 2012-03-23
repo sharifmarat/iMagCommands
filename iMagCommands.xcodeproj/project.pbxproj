@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7932A1BA151D0FA30027A487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7932A1B9151D0FA30027A487 /* UIKit.framework */; };
+		7932A1BC151D0FA30027A487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7932A1BB151D0FA30027A487 /* Foundation.framework */; };
+		7932A1BE151D0FA30027A487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7932A1BD151D0FA30027A487 /* CoreGraphics.framework */; };
+		7932A1C4151D0FA30027A487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7932A1C2151D0FA30027A487 /* InfoPlist.strings */; };
+		7932A1C6151D0FA30027A487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932A1C5151D0FA30027A487 /* main.m */; };
+		7932A1CA151D0FA30027A487 /* PPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932A1C9151D0FA30027A487 /* PPSAppDelegate.m */; };
+		7932A1CD151D0FA30027A487 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7932A1CB151D0FA30027A487 /* MainStoryboard_iPhone.storyboard */; };
+		7932A1D3151D0FA30027A487 /* PPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932A1D2151D0FA30027A487 /* PPSViewController.m */; };
+		7932A1DB151D11FA0027A487 /* iMag.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932A1DA151D11FA0027A487 /* iMag.m */; };
+		7932A1DD151D142F0027A487 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7932A1DC151D142F0027A487 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7932A1B5151D0FA30027A487 /* iMagCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMagCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7932A1B9151D0FA30027A487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7932A1BB151D0FA30027A487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7932A1BD151D0FA30027A487 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7932A1C1151D0FA30027A487 /* iMagCommands-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMagCommands-Info.plist"; sourceTree = "<group>"; };
+		7932A1C3151D0FA30027A487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7932A1C5151D0FA30027A487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7932A1C7151D0FA30027A487 /* iMagCommands-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMagCommands-Prefix.pch"; sourceTree = "<group>"; };
+		7932A1C8151D0FA30027A487 /* PPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSAppDelegate.h; sourceTree = "<group>"; };
+		7932A1C9151D0FA30027A487 /* PPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSAppDelegate.m; sourceTree = "<group>"; };
+		7932A1CC151D0FA30027A487 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7932A1D1151D0FA30027A487 /* PPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSViewController.h; sourceTree = "<group>"; };
+		7932A1D2151D0FA30027A487 /* PPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSViewController.m; sourceTree = "<group>"; };
+		7932A1D9151D11FA0027A487 /* iMag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMag.h; sourceTree = "<group>"; };
+		7932A1DA151D11FA0027A487 /* iMag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMag.m; sourceTree = "<group>"; };
+		7932A1DC151D142F0027A487 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7932A1B2151D0FA30027A487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7932A1DD151D142F0027A487 /* ExternalAccessory.framework in Frameworks */,
+				7932A1BA151D0FA30027A487 /* UIKit.framework in Frameworks */,
+				7932A1BC151D0FA30027A487 /* Foundation.framework in Frameworks */,
+				7932A1BE151D0FA30027A487 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7932A1AA151D0FA30027A487 = {
+			isa = PBXGroup;
+			children = (
+				7932A1DC151D142F0027A487 /* ExternalAccessory.framework */,
+				7932A1BF151D0FA30027A487 /* iMagCommands */,
+				7932A1B8151D0FA30027A487 /* Frameworks */,
+				7932A1B6151D0FA30027A487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7932A1B6151D0FA30027A487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7932A1B5151D0FA30027A487 /* iMagCommands.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7932A1B8151D0FA30027A487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7932A1B9151D0FA30027A487 /* UIKit.framework */,
+				7932A1BB151D0FA30027A487 /* Foundation.framework */,
+				7932A1BD151D0FA30027A487 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7932A1BF151D0FA30027A487 /* iMagCommands */ = {
+			isa = PBXGroup;
+			children = (
+				7932A1D9151D11FA0027A487 /* iMag.h */,
+				7932A1DA151D11FA0027A487 /* iMag.m */,
+				7932A1C8151D0FA30027A487 /* PPSAppDelegate.h */,
+				7932A1C9151D0FA30027A487 /* PPSAppDelegate.m */,
+				7932A1CB151D0FA30027A487 /* MainStoryboard_iPhone.storyboard */,
+				7932A1D1151D0FA30027A487 /* PPSViewController.h */,
+				7932A1D2151D0FA30027A487 /* PPSViewController.m */,
+				7932A1C0151D0FA30027A487 /* Supporting Files */,
+			);
+			path = iMagCommands;
+			sourceTree = "<group>";
+		};
+		7932A1C0151D0FA30027A487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7932A1C1151D0FA30027A487 /* iMagCommands-Info.plist */,
+				7932A1C2151D0FA30027A487 /* InfoPlist.strings */,
+				7932A1C5151D0FA30027A487 /* main.m */,
+				7932A1C7151D0FA30027A487 /* iMagCommands-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7932A1B4151D0FA30027A487 /* iMagCommands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7932A1D6151D0FA30027A487 /* Build configuration list for PBXNativeTarget "iMagCommands" */;
+			buildPhases = (
+				7932A1B1151D0FA30027A487 /* Sources */,
+				7932A1B2151D0FA30027A487 /* Frameworks */,
+				7932A1B3151D0FA30027A487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMagCommands;
+			productName = iMagCommands;
+			productReference = 7932A1B5151D0FA30027A487 /* iMagCommands.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7932A1AC151D0FA30027A487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PPS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7932A1AF151D0FA30027A487 /* Build configuration list for PBXProject "iMagCommands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7932A1AA151D0FA30027A487;
+			productRefGroup = 7932A1B6151D0FA30027A487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7932A1B4151D0FA30027A487 /* iMagCommands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7932A1B3151D0FA30027A487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7932A1C4151D0FA30027A487 /* InfoPlist.strings in Resources */,
+				7932A1CD151D0FA30027A487 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7932A1B1151D0FA30027A487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7932A1C6151D0FA30027A487 /* main.m in Sources */,
+				7932A1CA151D0FA30027A487 /* PPSAppDelegate.m in Sources */,
+				7932A1D3151D0FA30027A487 /* PPSViewController.m in Sources */,
+				7932A1DB151D11FA0027A487 /* iMag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7932A1C2151D0FA30027A487 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7932A1C3151D0FA30027A487 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7932A1CB151D0FA30027A487 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7932A1CC151D0FA30027A487 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7932A1D4151D0FA30027A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7932A1D5151D0FA30027A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7932A1D7151D0FA30027A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMagCommands/iMagCommands-Prefix.pch";
+				INFOPLIST_FILE = "iMagCommands/iMagCommands-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7932A1D8151D0FA30027A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMagCommands/iMagCommands-Prefix.pch";
+				INFOPLIST_FILE = "iMagCommands/iMagCommands-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7932A1AF151D0FA30027A487 /* Build configuration list for PBXProject "iMagCommands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7932A1D4151D0FA30027A487 /* Debug */,
+				7932A1D5151D0FA30027A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7932A1D6151D0FA30027A487 /* Build configuration list for PBXNativeTarget "iMagCommands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7932A1D7151D0FA30027A487 /* Debug */,
+				7932A1D8151D0FA30027A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7932A1AC151D0FA30027A487 /* Project object */;
+}
