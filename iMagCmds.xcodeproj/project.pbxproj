@@ -20,14 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7932A1B5151D0FA30027A487 /* iMagCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMagCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7932A1B5151D0FA30027A487 /* iMagCmds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMagCmds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7932A1B9151D0FA30027A487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7932A1BB151D0FA30027A487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7932A1BD151D0FA30027A487 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7932A1C1151D0FA30027A487 /* iMagCommands-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMagCommands-Info.plist"; sourceTree = "<group>"; };
+		7932A1C1151D0FA30027A487 /* iMagCmds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMagCmds-Info.plist"; sourceTree = "<group>"; };
 		7932A1C3151D0FA30027A487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7932A1C5151D0FA30027A487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7932A1C7151D0FA30027A487 /* iMagCommands-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMagCommands-Prefix.pch"; sourceTree = "<group>"; };
+		7932A1C7151D0FA30027A487 /* iMagCmds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMagCmds-Prefix.pch"; sourceTree = "<group>"; };
 		7932A1C8151D0FA30027A487 /* PPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPSAppDelegate.h; sourceTree = "<group>"; };
 		7932A1C9151D0FA30027A487 /* PPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSAppDelegate.m; sourceTree = "<group>"; };
 		7932A1CC151D0FA30027A487 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		7932A1B6151D0FA30027A487 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7932A1B5151D0FA30027A487 /* iMagCommands.app */,
+				7932A1B5151D0FA30027A487 /* iMagCmds.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +99,10 @@
 		7932A1C0151D0FA30027A487 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7932A1C1151D0FA30027A487 /* iMagCommands-Info.plist */,
+				7932A1C1151D0FA30027A487 /* iMagCmds-Info.plist */,
 				7932A1C2151D0FA30027A487 /* InfoPlist.strings */,
 				7932A1C5151D0FA30027A487 /* main.m */,
-				7932A1C7151D0FA30027A487 /* iMagCommands-Prefix.pch */,
+				7932A1C7151D0FA30027A487 /* iMagCmds-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7932A1B4151D0FA30027A487 /* iMagCommands */ = {
+		7932A1B4151D0FA30027A487 /* iMagCmds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7932A1D6151D0FA30027A487 /* Build configuration list for PBXNativeTarget "iMagCommands" */;
+			buildConfigurationList = 7932A1D6151D0FA30027A487 /* Build configuration list for PBXNativeTarget "iMagCmds" */;
 			buildPhases = (
 				7932A1B1151D0FA30027A487 /* Sources */,
 				7932A1B2151D0FA30027A487 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = iMagCommands;
+			name = iMagCmds;
 			productName = iMagCommands;
-			productReference = 7932A1B5151D0FA30027A487 /* iMagCommands.app */;
+			productReference = 7932A1B5151D0FA30027A487 /* iMagCmds.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 				CLASSPREFIX = PPS;
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 7932A1AF151D0FA30027A487 /* Build configuration list for PBXProject "iMagCommands" */;
+			buildConfigurationList = 7932A1AF151D0FA30027A487 /* Build configuration list for PBXProject "iMagCmds" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7932A1B4151D0FA30027A487 /* iMagCommands */,
+				7932A1B4151D0FA30027A487 /* iMagCmds */,
 			);
 		};
 /* End PBXProject section */
@@ -205,7 +205,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -220,6 +221,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -231,7 +234,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -240,6 +244,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -250,9 +256,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iMagCommands/iMagCommands-Prefix.pch";
-				INFOPLIST_FILE = "iMagCommands/iMagCommands-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iMagCommands/iMagCmds-Prefix.pch";
+				INFOPLIST_FILE = "iMagCommands/iMagCmds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iMagCmds;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,9 +269,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iMagCommands/iMagCommands-Prefix.pch";
-				INFOPLIST_FILE = "iMagCommands/iMagCommands-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iMagCommands/iMagCmds-Prefix.pch";
+				INFOPLIST_FILE = "iMagCommands/iMagCmds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iMagCmds;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -271,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7932A1AF151D0FA30027A487 /* Build configuration list for PBXProject "iMagCommands" */ = {
+		7932A1AF151D0FA30027A487 /* Build configuration list for PBXProject "iMagCmds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7932A1D4151D0FA30027A487 /* Debug */,
@@ -280,13 +290,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7932A1D6151D0FA30027A487 /* Build configuration list for PBXNativeTarget "iMagCommands" */ = {
+		7932A1D6151D0FA30027A487 /* Build configuration list for PBXNativeTarget "iMagCmds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7932A1D7151D0FA30027A487 /* Debug */,
 				7932A1D8151D0FA30027A487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

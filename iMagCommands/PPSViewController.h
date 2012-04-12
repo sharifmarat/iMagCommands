@@ -18,6 +18,8 @@
 @property (weak, nonatomic) IBOutlet UITextView *bytesField;
 - (IBAction)sendFirmwareLRC:(id)sender;
 - (IBAction)sendFirmwareETX:(id)sender;
+- (IBAction)sendFirmwareNOP:(id)sender;
+
 
 - (IBAction)sendBytes:(id)sender;
 

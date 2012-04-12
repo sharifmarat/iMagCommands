@@ -68,6 +68,13 @@
     [self.iMagSwipper sendCommandWithData:cmd];
 }
 
+- (IBAction)sendFirmwareNOP:(id)sender
+{
+    const uint8_t buf[] = {0x02, 0x52, 0x22, 0x03};
+    NSData *cmd = [[NSData alloc] initWithBytes:buf length:sizeof(buf)];
+    [self.iMagSwipper sendCommandWithData:cmd];
+}
+
 - (IBAction)sendBytes:(id)sender
 {
     [self.bytesField resignFirstResponder];
@@ -75,6 +82,15 @@
     if (!self.bytesFieldEdited || cmdStr.length == 0)
     {
         [self showAlert:@"Error" message:@"Enter bytes first"];
+        return;
+    }
+    else if ([cmdStr isEqualToString:@"xx"])
+    {
+        [[[UIAlertView alloc] initWithTitle:@"Easter Egg"
+                                    message:@"My software never has bugs. It just develops random features"
+                                   delegate:nil
+                          cancelButtonTitle:@"Cancel"
+                          otherButtonTitles:nil] show];
         return;
     }
     cmdStr = [cmdStr stringByReplacingOccurrencesOfString:@" " withString:@""];
